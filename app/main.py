@@ -11,7 +11,7 @@ app = FastAPI()
 # Welcome at root url
 @app.get("/")
 def root():
-    return {"message": "Welcome to my API"}
+    return {"message": "Welcome to my API now go to /docs to see the documentation"}
 
 # Getting all posts
 @app.get("/posts/")
